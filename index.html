@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Second World War </title>
+    </head>
+    <body>
+        <div class="taskbar">
+        <div class="logo-title">
+        <span class="title"><a href="index.html">World War 2: Detailed</a></span>
+        </div>
+        <nav id="buttonsdiv">
+        <button type="button" onclick="newtab('detailed-timeline.html')">Detailed timeline</button>
+        <button type="button" onclick="newtab('cause-and-effect.html')">Cause and effects</button>
+        <button type="button" onclick="newtab('nations-and-leaders.html')">Nations and leaders</button>
+        </nav>
+    <script>
+      const button = document.getElementById('buttonsdiv');
+      if (window.innerWidth < 768) {
+        button.style.overflow = "scroll";
+      } else {
+        button.style.overflow = "hidden";
+      }
+    </script>
+  </div>
+        <h1>Second World War</h1>
+        <h3>Overview</h3>
+        <p>The <strong>Second World War</strong>, shortened as WW2 (World War 2) or the <strong>Second Great War</strong> in contrast to the Great War, was a global conflict between the <strong>Axis</strong> and the <strong>Allies</strong>. Nearly all of the world participated by April of 1945. This was the deadliest war so far in recorded history, surpassing the <strong>Great War</strong> and even the <strong>Taiping Rebellion</strong>.</p>
+        <h3>You may wanna learn more about World War 2 by clicking the buttons in the top bar!</h3>
+    </body>
+</html>
