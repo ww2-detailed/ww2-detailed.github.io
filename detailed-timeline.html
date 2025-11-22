@@ -2,11 +2,14 @@
 <html>
     <head>
         <title>Detailed timeline</title>
+        <link rel="stylesheet" href="detailed-timeline.css">
     </head>
     <body>
         <div class="taskbar">
         <div class="logo-title">
-        <span class="title"><a href="index.html">World War 2: Detailed</a></span>
+        <a href="index.html">
+        <span class="title">World War 2: Detailed</span>
+        </a>
         </div>
         <nav id="buttonsdiv">
         <button type="button" onclick="window.location.href='detailed-timeline.html'">Detailed timeline</button>
@@ -22,9 +25,13 @@
         }
         </script>
         </div>
+        <br>
+        <br>
+        <br>
+        <br>
         <h1>Detailed timeline of World War 2</h1>
         <p>This is a detailed timeline of major events that happened during World War 2.</p>
-    <div class="card">
+    <div class="year-1939" id="1939">
         <h2>1939</h2>
         <p><b>September 1</b>: The Second Sino-Japanese war in East Asia rages on.</p>
         <p><b>September 1</b>: Shortly before 6.00 am CET, the Wehrmacht, together with Slovak units, cross into Poland, beginning the invasion of Poland.</p>
@@ -36,7 +43,7 @@
         <p><b>November 30</b>: The Soviet Union invades Finland, starting the Winter War.</p>
         <p><b>December 14</b>: The League of Nations condemns the Soviet invasion of Finland, framing the USSR as the aggressor and thus expelling them from the League.</p>
     </div>
-    <div class="card">
+    <div class="year-1940" id="1940">
         <h2>1940</h2>
         <p><b>January 7</b>: Britain begins food rationing.</p>
         <p><b>January 10</b>: A German plane carrying plans for the planned invasion of France crashes in Belgium. This is known as the Mechelen Incident.</p>
@@ -65,7 +72,7 @@
         <p><b>December 6</b>: British and Indian troops drive out the Italians from Egypt.</p>
         <p><b>December 28</b>: The Greco-Italian war goes badly for Italy; Greece occupies Albanian Epirus.</p>
     </div>
-    <div class="card">
+    <div class="year-1941" id="1941">
         <h2>1941</h2>
         <p><b>January 10</b>: The British launch a counteroffensive in Cyrenaica, driving the Italians back.</p>
         <p><b>February 9</b>: The British reaches El Aghelia, Cyrenaica.</p>
@@ -82,9 +89,113 @@
         <p><b>May 20</b>: The Afrika Korps under Erwin Rommel arrives in North Africa to support the Italians.</p>
         <p><b>June 22</b>: Germany launches Operation Barbarossa, abruptly ending the Molotov-Ribbentrop Pact; the Wehrmacht aims occupation up to the Arkhangelsk-Astrakhan line.</p>
         <p><b>June 25</b>: The Soviets bomb Helsinki, bringing Finland into the Great Patriotic War.</p>
-        <p><b>July 8</b>: Britain and the USSR sign a mutual defense agreement, promising to not sign any seperate peace treaties with Germany.</p>
+        <p><b>July 8</b>: Britain and the USSR sign a mutual defense agreement, promising to not sign any seperate peace treaties with Germany -- The Kingdom of Yugoslavia is dissolved by the Axis.</p>
+        <p><b>August 9</b>: The Atlantic Charter is created by Churchill and Roosevelt; it shows their plans for the world after Allied victory in WW2.</p>
+        <p><b>August 25</b>: The Red Army and the Royal British Armed Forces invades Iran to prevent their entry into the Axis, secure oilfields, and secure a lend-lease route to the USSR.</p>
+        <p><b>September 8</b>: The Siege of Leningrad begins.</p>
+        <p><b>October 18</b>: Hideki Tojo becomes the 40th prime minister of Japan.</p>
+        <p><b>November 12</b>: The Battle of Moscow begins; temperatures in Moscow drops to -12°C.</p>
+        <p><b>December 4</b>: Temperatures in Moscow drops to -37°C; German attacks are failing.</p>
+        <p><b>December 5</b>: The Germans are approximately 17 kilometers away from Moscow; the Red Army counterattacks during a heavy blizzard.</p>
         <p><b>December 7</b>: Japan attacks Pearl Harbor, leading to the United States entering World War 2.</p>
         <p><b>December 11</b>: Germany and Italy declare war on the United States; the US reciprocates.</p>
     </div>
+    <div class="year-1942" id="1942">
+        <h2>1942</h2>
+        <p><b>January 11</b>: Japan invades the Dutch East Indies.</p>
+        <p><b>January 20</b>: The Wannsee Conference is held in Berlin, where German officials discuss and coordinate the implementation of the "Final Solution to the Jewish Question".</p>
+        <p><b>January 29</b>: Rommel's Afrika Korps and Italian forces recapture Benghazi in their drive east.</p>
+        <p><b>February 15</b>: Singapore falls to the Japanese, marking a significant defeat for the British Empire.</p>
+        <p><b>February 22</b>: Roosevelt orders General Macarthur to evacuate the Philipines as American defense collapses.</p>
+        <p><b>March 5</b>: Batavia falls to the Imperial Japanese Army.</p>
+        <p><b>April 18</b>: The Doolittle Raid: US bombers launch a surprise air raid on Tokyo and other Japanese cities.</p>
+        <p><b>May 4</b>: The Battle of the Coral Sea begins; it is the first naval battle in history where opposing ships do not sight each other and all attacks are carried out by aircraft.</p>
+        <p><b>June 3</b>: The Battle of Midway begins; a decisive naval battle in the Pacific Theater.</p>
+        <p><b>July 1</b>: First Battle of El Alamein begins.</p>
+        <p><b>June 4</b>: The Battle of Midway ends in a decisive victory for the United States, significantly weakening the Japanese fleet.</p>
+        <p><b>July 17</b>: The Battle of Stalingrad begins.</p>
+        <p><b>November 8</b>: Operation Torch: Allied forces land in French North Africa.</p>
+        <p><b>November 10</b>: Germany annexes the French State (Vichy France) in response to Admiral François Darlan signing an armistice with the Allies in North Africa.</p>
+        <p><b>November 19</b>: The Soviet Union launches Operation Uranus, a major counteroffensive against the Axis forces at Stalingrad.</p>
+        <p><b>December 2</b>: The Soviet Union encircles and traps the German 6th Army in Stalingrad.</p>
+    </div>
+    <div class="year-1943" id="1943">
+        <h2>1943</h2>
+        <p><b>January 14</b>: Casablanca Conference: Churchill and Roosevelt meet to plan the next phase of the war.</p>
+        <p><b>February 2</b>: The German 6th Army surrenders at Stalingrad, marking a turning point in the war on the Eastern Front.</p>
+        <p><b>February 8</b>: The Soviets recapture Kursk.</p>
+        <p><b>May 13</b>: Axis forces in North Africa surrender to the Allies, ending the North African Campaign.</p>
+        <p><b>July 5</b>: The Germans initiate Operation Citadel. The Battle of Kursk, the largest tank battle so far, begins.</p>
+        <p><b>July 10</b>: Operation Husky: Allied forces land on Sicily, beginning the Italian Front and the eventual liberation of Western Europe.</p>
+        <p><b>July 25</b>: Due to Mussolini's incompetence, the Fascist Grand council voted Mussolini to be removed from power, and he was subsequently arrested by King Victor Emmanuel III.</p>
+        <p><b>August 17</b>: The Allies capture the entirety of Sicily.</p>
+        <p><b>September 3</b>: The Kingdom of Italy formally signs a (secret) armistice with the Allied Powers. Subsequently, Allied troops occupy mainland Italy.</p>
+        <p><b>September 8</b>: Hitler initiates Operation Achse, the invasion of Italy.</p>
+        <p><b>September 12</b>: Mussolini is rescued via aircraft by German SS troops. Mussolini is then set up by Hitler as the head of a new <b>Italian Social Republic</b>, the fascist successor to Fascist Italy (1922-1943) however is effectively just a puppet of Germany.</p>
+        <p><b>September 28</b>: The people of Naples initiate an uprising against Social Italy and Wehrmacht-occupied Italy, sensing the approach of Allied troops.</p>
+        <p><b>October 13</b>: The new government of the Kingdom of Italy declares war on the German Reich.</p>
+        <p><b>November 6</b>: The Soviets recapture Kiev.</p>
+        <p><b>November 28</b>: Tehran Conference: Churchill, Roosevelt, and Stalin meet to discuss the opening of a second front in Western Europe.</p>
+    </div>
+    <div class="year-1944" id="1944">
+        <h2>1944</h2>
+        <p><b>January 19</b>: The Red Army launches an offensive into Reichskommisariat Ostland.</p>
+        <p><b>January 27</b>: The Siege of Leningrad ends after a whopping 872 days.</p>
+        <p><b>February 16</b>: Diplomats from the USSR and Finland meet to negotiate an armistice.</p>
+        <p><b>March 8</b>: The Red Army launches an offensive on a wide front west of the Dnieper in Ukraine; This forces the Germans into a major retreat.</p>
+        <p><b>March 19</b>: Germany initiates Operation Margarethe; the Wehrmacht occupies Hungary in a Hungarian attempt of an armistice with the Allies and Soviets.</p>
+        <p><b>April 10</b>: The Soviets enter Odessa.</p>
+        <p><b>May 9</b>: The major port city of Sevastopol is recaptured by the Red Army.</p>
+        <p><b>June 4</b>: Allied armies enter Rome.</p>
+        <p><b>June 6</b>: D-Day, codenamed Operation Overlord, is commenced. The aim is to completely liberate France.</p>
+        <p><b>June 22</b>: Operation Bagration commences. This results in the destruction of German Army Group Center.</p>
+        <p><b>July 3</b>: Minsk is liberated by the Red Army.</p>
+        <p><b>July 13</b>: Vilnius is liberated by the Red Army.</p>
+        <p><b>July 20</b>: The July 20 plot, codenamed Operation Valkyrie, is carried out by Colonel Stauffenberg with the aim to assasinate Hitler, however it fails.</p>
+        <p><b>July 28</b>: Brest-Litovsk is liberated by the Red Army.</p>
+        <p><b>August 1</b>: The Warsaw uprising, staged by the Polish Home Army, begins; Expecting Soviet help, but they instead betray the Home Army and waits on the other side of the Vistula until the former gets crushed by the Wehrmacht.</p>
+        <p><b>August 4</b>: Florence is liberated by Allied forces.</p>
+        <p><b>August 19</b>: The French Resistance begins an uprising in Paris, as Allied forces approached the Seine River.</p>
+        <p><b>August 23</b>: Ion Antonescu, dictator of Romania, is ousted by King Michael I. Subsequently, Romania switches sides.</p>
+        <p><b>September 5</b>: Antwerp is liberated by the British.</p>
+        <p><b>September 9</b>: Charles de Gaulle forms the Provisional Government of the French Republic.</p>
+        <p><b>September 19</b>: Moscow Armistice: The Soviets and Finland peaces out.</p>
+        <p><b>October 15</b>: Hungarian regent Miklós Horthy is removed from power by the Germans; the Arrow Cross party is installed.</p>
+        <p><b>December 16</b>: The Wehrmacht initiates the Battle of the Buldge; the initiative is to recapture Antwerp.</p>
+    </div>
+    <div class="year-1945" id="1945">
+        <h2>1945</h2>
+        <p><b>January 1</b>: Operation Nordwind is commenced; the Germans begin a suprise offensive in Alsace.</p>
+        <p><b>January 12</b>: The Soviet Vistula-Oder offensive commences; the goal is to capture Poland and eastern Germany.</p>
+        <p><b>January 17</b>: The Red Army enters Warsaw. The Provisional Government of Poland is created by Stalin, causing protests from the Polish government-in-exile in London.</p>
+        <p><b>January 27</b>: Auschwitz concentration camp is liberated by the Red Army.</p>
+        <p><b>January 31</b>: The Red Army crosses the Oder river into Germany and are now less than 80 km from Berlin.</p>
+        <p><b>February 19</b>: US marines invade the island of Iwo Jima.</p>
+        <p><b>March 16</b>: Iwo Jima is secured after a month. This is a devastating blow for the Japanese.</p>
+        <p><b>March 22-23</b>: Allied armies cross the Rhine river, paving the way into Germany proper.</p>
+        <p><b>March 27</b>: The Western Allies slow their advance and allow the Red Army to capture Berlin.</p>
+        <p><b>March 30</b>: Red Army forces capture Danzig.</p>
+        <p><b>April 2</b>: The Vienna offensive is commenced.</p>
+        <p><b>April 9</b>: The Battle of Königsberg ends in a Soviet victory. The Germans living there start fleeing to Germany proper.</p>
+        <p><b>April 12</b>: US President Franklin Delano Roosevelt dies unexpectedly. Harry S. Truman succedes him.</p>
+        <p><b>April 24</b>: Himmler makes a secret surrender offer to the Western Allies, however it was rejected. Himmler is ordered shot by Hitler when he (the latter) heard about it.</p>
+        <p><b>April 25</b>: Soviet and American troops meet at the river Elbe, near Torgau.</p>
+        <p><b>April 28</b>: Mussolini and his mistress is publicly executed by Italian partisans.</p>
+        <p><b>April 30</b>: Hiler and his wife commits suicide in the Berlin bunker. Before his death, Goebbels was appointed Reich Chancellor and Donitz was appointed Reich President.</p>
+        <p><b>May 7</b>: The German Reich surrenders unconditionally to the Allies at Rheims, France at 2.41 AM.</p>
+        <p><b>May 11</b>: The Red Army captures Prague, marking the end of the Prague offensive and the Second World War in Europe.</p>
+        <p><b>June 13</b>: Australian troops liberate Brunei.</p>
+        <p><b>July 5</b>: General MacArthur announces that the Philippines have been liberated.</p>
+        <p><b>July 17</b>: The Potsdam conference begins, discussing peace terms.</p>
+        <p><b>July 26</b>: Clement Attlee replaced Churchill as British prime minister following the 1945 elections.</p>
+        <p><b>August 2</b>: The Potsdam conference ends.</p>
+        <p><b>August 6</b>: The first atomic/nuclear bomb "Little boy" is dropped on the Japanese city of Hiroshima.</p>
+        <p><b>August 8</b>: The USSR and the Mongolian People's Republic declares war on Japan; the invasion of Manchuria begins an hour later which include landings on the Kuril islands. The Japanese evacuates in anticipation of this.</p>
+        <p><b>August 15</b>: Emperor Hirohito issues a radio broadcast announcing the surrender of Japan.</p>
+        <p><b>August 17</b>: Indonesian nationalist figures Sukarno and Hatta declare the independence of Indonesia.</p>
+        <p><b>August 19</b>: Ho Chi Minh's Viet Minh proclaims a provisional government upon capturing Hanoi from retreating Japanese troops.</p>
+        <p><b>September 2</b>: The Japanese instrument of surrender is signed on the deck of the USS Missouri in Tokyo Bay. This marks the end of the Pacific war, WW2 in Asia, and the Second Great War in </p>
+    </div>
+
     </body>
 </html>

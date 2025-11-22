@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI Variable Display", "SF Pro Display", sans-serif;
+}
+
+body {
+  background: url("src/bg.jpg") no-repeat center center fixed;
+  background-size: cover;
+  color: white;
+  text-align: center;
+  padding-top: 100px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:visited {
+  color: white;
+}
+
+.taskbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 70px;
+  backdrop-filter: blur(20px);
+  background: rgba(20, 20, 20, 0.35);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 25px;
+  z-index: 999;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+}
+
+.logo-title .title {
+  font-size: 22px;
+  font-weight: 600;
+  color: white;
+}
+
+#buttonsdiv button {
+  margin-left: 15px;
+  padding: 10px 16px;
+  font-size: 16px;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  border-radius: 12px;
+  color: white;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+#buttonsdiv button:hover {
+  background: rgba(255, 255, 255, 0.25);
+  transform: scale(1.06);
+}
+
+h1 {
+  font-size: 48px;
+  margin-top: 20px;
+}
+
+h2 {
+  font-size: 32px;
+  margin: 20px 0;
+}
+
+h3 {
+  font-size: 20px;
+  margin-bottom: 25px;
+  opacity: 0.9;
+}
+
+.year1939, .year1940, .year1941-1, .year1941-2,
+.year1942, .year1943-1, .year1943-2,
+.year1944, .year1945-1, .year1945-2 {
+  backdrop-filter: blur(25px);
+  background: rgba(255, 255, 255, 0.1);
+  padding: 25px;
+  margin: 20px auto;
+  width: 80%;
+  max-width: 900px;
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  transition: 0.25s;
+}
+
+.year1939:hover, .year1940:hover, .year1941-1:hover, .year1941-2:hover,
+.year1942:hover, .year1943-1:hover, .year1943-2:hover,
+.year1944:hover, .year1945-1:hover, .year1945-2:hover {
+  transform: scale(1.02);
+  background: rgba(255, 255, 255, 0.18);
+}
+
+img {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  margin-bottom: 10px;
+}
+
+/* TABLE STYLING */
+table {
+  margin: 50px auto;
+  width: 90%;
+  max-width: 1100px;
+  border-collapse: collapse;
+  backdrop-filter: blur(30px);
+  background: rgba(255, 255, 255, 0.07);
+  border-radius: 18px;
+  overflow: hidden;
+}
+
+th, td {
+  padding: 16px;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+}
+
+th {
+  font-size: 20px;
+  font-weight: 700;
+  background: rgba(255, 255, 255, 0.15);
+}
+
+td {
+  font-size: 18px;
+  line-height: 1.4;
+}

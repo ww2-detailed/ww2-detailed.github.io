@@ -1,0 +1,120 @@
+body {
+    margin: 0;
+    font-family: "Segoe UI Variable Display", "SF Pro Display", -apple-system, BlinkMacSystemFont, "Roboto", sans-serif;
+    background-image: url('src/bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    filter: blur(15%);
+    min-height: 100vh;
+}
+
+.taskbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    background: rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(25px);
+    -webkit-backdrop-filter: blur(25px);
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    z-index: 100;
+    box-sizing: border-box;
+}
+
+.taskbar .logo-title {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.taskbar .title {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.taskbar nav {
+    display: flex;
+    gap: 10px;
+}
+
+.taskbar nav button {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #fff;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 8px;
+    padding: 8px 15px;
+    font-family: inherit;
+    font-weight: 550;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.taskbar nav button:hover {
+    color: #077026;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 120px;
+    width: 100%;
+    box-sizing: border-box;
+    z-index: 1;
+}
+
+h1 {
+    color: #ffffff;
+    font-size: 2em;
+    margin: 0 0 15px 0;
+    text-align: center;
+}
+
+h1 + p {
+    color: #fff;
+    font-size: 1.1em;
+    margin: 0 0 30px 0;
+    text-align: center;
+}
+
+.causes, .effects {
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 900px;
+    width: 90%;
+    color: #fff;
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    transition: transform 0.3s ease, opacity 0.3s ease;
+    text-align: left;
+}
+
+.causes:hover, .effects:hover {
+    transform: scale(1.03);
+    opacity: 0.85;
+}
+
+.causes h3, .effects h3 {
+    border-bottom: 2px solid #fff;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+p, ul {
+    line-height: 1.6;
+    margin-left: 10px;
+}
+
+ul li {
+    margin-top: 10px;
+}
