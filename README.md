@@ -1,2 +1,2 @@
 # ww2-detailed.github.io
-ict project lol
+ict project lmao
